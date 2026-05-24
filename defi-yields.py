@@ -15,7 +15,6 @@ Usage:
     python defi-yields.py --json                       # JSON output
 
 Support: https://github.com/yourusername/defi-yields
-BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9
 """
 
 import sys
@@ -110,7 +109,6 @@ def display_table(yields, show_best_only=False):
         print(f"  {protocol:<12} {asset:<10} {apy:>9.2f}% {ytype:<10}")
 
     print(f"\n  💡 Best APY: {yields[0]['apy']:.2f}% ({yields[0]['asset']} on {yields[0]['protocol']})")
-    print(f"  💰 BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9")
     print(f"  📦 Source: https://github.com/yourusername/defi-yields\n")
 
 
